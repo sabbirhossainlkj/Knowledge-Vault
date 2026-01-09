@@ -16,7 +16,6 @@ nav {
     width: 1600px;
     height: 92px;
     padding: 16px 120px;
-    /* background-color: #FFFFFF; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -186,4 +185,47 @@ nav button {
     font-size: 16px;
     line-height: 20px;
     color: #627382;
+}
+
+/* Second Brain css Section */
+#brain-section {
+    padding: 120px;
+}
+
+.brain-container {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.image img {
+    border-radius: 12px;
+}
+
+.brain-content .style {
+    font-size: 16px;
+    color: #469165;
+    font-weight: 300;
+    margin-bottom: 16px;
+}
+
+.brain-content h2 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #001931;
+    margin-bottom: 16px;
+}
+
+.brain-content p {
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+    margin-bottom: 40px;
+}
+
+.brain-content .list li {
+    font-size: 16px;
+    margin-bottom: 16px;
+    color: #001931;
+    list-style: none;
 }
