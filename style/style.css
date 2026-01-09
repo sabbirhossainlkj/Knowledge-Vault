@@ -48,6 +48,7 @@ nav button {
     border: none;
     border-radius: 4px;
 }
+
 /* banner css section */
 #Banner {
     padding: 70px 120px 134px 120px;
@@ -66,8 +67,8 @@ nav button {
     flex-direction: column;
     align-items: center;
 }
+
 .Banner-container .border {
-    /* width: 229px; */
     background-color: #FFFFFF;
     border-radius: 1000px;
     font-size: 16px;
@@ -78,27 +79,32 @@ nav button {
     gap: 10px;
     align-items: center;
 }
+
 .Banner-container .heading-1 {
     color: #FFFFFF;
     font-size: 50px;
     font-weight: bold;
 }
+
 .Banner-container .heading-2 {
     color: #30B868;
     font-size: 55px;
     font-weight: bold;
     margin-bottom: 16px;
 }
+
 .Banner-container p {
     font-size: 18px;
     line-height: 24px;
     color: #FFFFFF;
 }
+
 .btn {
-display: flex;
-gap: 16px;
-margin-top: 32px;
+    display: flex;
+    gap: 16px;
+    margin-top: 32px;
 }
+
 .btn .btn-1 {
     width: 251px;
     border-radius: 4px;
@@ -111,6 +117,7 @@ margin-top: 32px;
     cursor: pointer;
     text-align: center;
 }
+
 .btn .btn-2 {
     width: 198px;
     font-size: 16px;
@@ -124,3 +131,59 @@ margin-top: 32px;
     border: 1px solid #FFFFFF;
 }
 
+/* notes css section */
+#notes {
+    padding: 0 120px;
+}
+
+.notes-content {
+    text-align: center;
+}
+
+.notes-content h2 {
+    font-size: 48px;
+    font-weight: bold;
+    padding-top: 35px;
+    margin-bottom: 16px;
+}
+
+.notes-content p {
+    font-size: 16px;
+    color: #627382;
+}
+
+.notes-box {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    gap: 24px;
+}
+
+.notes-card {
+    background-color: ;
+    width: 322px;
+    border-radius: 8px;
+    padding: 24px;
+    margin-top: 44px;
+    box-shadow: 0 0 8px 0 #000000;
+}
+
+.notes-card img {
+    background-color: #F95555;
+    padding: 5px;
+    margin-bottom: 16px;
+    border-radius: 100%;
+}
+
+.notes-card h3 {
+    font-size: 24px;
+    font-weight: 600px;
+    color: #001931;
+    margin-bottom: 16px;
+}
+
+.notes-card p {
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+}
